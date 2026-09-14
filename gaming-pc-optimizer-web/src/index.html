@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming PC Optimizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gaming PC Optimizer</h1>
+            <p>Clean temporary files and prepare Windows for gaming</p>
+        </header>
+        <section id="system-info">
+            <h2>System Information</h2>
+            <p id="disk-space">Checking disk space...</p>
+        </section>
+        <section id="gaming-options">
+            <h2>Gaming Options</h2>
+            <label>
+                <input type="checkbox" id="game-mode" checked>
+                Enable Windows Game Mode
+            </label>
+            <label>
+                <input type="checkbox" id="power-plan">
+                Use High Performance power plan
+            </label>
+            <label>
+                <input type="checkbox" id="recycle-bin" checked>
+                Empty Recycle Bin
+            </label>
+        </section>
+        <section id="launch-game">
+            <h2>Launch Game With High Priority</h2>
+            <input type="text" id="game-path" placeholder="Select a game executable">
+            <button id="browse-btn">Browse</button>
+            <button id="launch-btn">Launch Game</button>
+        </section>
+        <button id="optimize-btn">Clean and Optimize</button>
+        <section id="activity-log">
+            <h2>Activity Log</h2>
+            <pre id="log-output"></pre>
+        </section>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/optimizer.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

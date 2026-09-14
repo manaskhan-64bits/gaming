@@ -1,0 +1,21 @@
+{
+  "name": "gaming-pc-optimizer-web",
+  "version": "1.0.0",
+  "description": "A web application to optimize gaming PC performance by cleaning temporary files and managing system settings.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined yet.'"
+  },
+  "keywords": [
+    "gaming",
+    "optimizer",
+    "performance",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
